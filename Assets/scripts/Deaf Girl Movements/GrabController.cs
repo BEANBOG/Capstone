@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GrabController : MonoBehaviour
 {
@@ -25,6 +26,15 @@ public class GrabController : MonoBehaviour
             {
                 grabCheck.collider.gameObject.transform.parent = null;
                 grabCheck.collider.gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
+            }
+
+        }
+
+        if(grabCheck.collider != null && grabCheck.collider.tag == "Box1")
+        {
+           if(Input.GetKey(KeyCode.T))
+            {
+               SceneManager.LoadScene("deaf code");
             }
         }
 

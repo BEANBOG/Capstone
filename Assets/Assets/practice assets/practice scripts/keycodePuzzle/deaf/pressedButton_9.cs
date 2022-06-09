@@ -134,7 +134,7 @@ public class pressedButton_9 : MonoBehaviour
         if (codeSequence == "2104")
         {
             Debug.Log("Correct");
-            UnityEngine.SceneManagement.SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+            SceneManager.LoadScene("Stage 1-1.1");
 
         }
         else
