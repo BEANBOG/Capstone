@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class fslBook : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] GameObject book;
+    [SerializeField] GameObject page;
+    int active = 1;
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            if(active == 1)
+            {
+                book.SetActive(false);
+                active = 2;
+            }
+
+        }
     }
 }
