@@ -481,6 +481,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3379974968965216791, guid: 45b65d4db4895894baa5e99494b33ceb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45b65d4db4895894baa5e99494b33ceb, type: 3}
 --- !u!1 &324461175 stripped
@@ -759,6 +764,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Moving platform Vertical (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888487532671168031, guid: ff97c3381b8e3694e9e70e4e80e1a84c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888487533580750914, guid: ff97c3381b8e3694e9e70e4e80e1a84c,
+        type: 3}
+      propertyPath: speed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff97c3381b8e3694e9e70e4e80e1a84c, type: 3}
@@ -1487,6 +1502,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2261068046271596396, guid: 22a27d20fdb8b4d44ad44e78711f49c2,
+        type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2261068047058574512, guid: 22a27d20fdb8b4d44ad44e78711f49c2,
         type: 3}
       propertyPath: m_RootOrder
