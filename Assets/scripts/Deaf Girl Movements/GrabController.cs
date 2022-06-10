@@ -38,6 +38,23 @@ public class GrabController : MonoBehaviour
             }
         }
 
+        if(grabCheck.collider != null && grabCheck.collider.tag == "light")
+        {
+            if(Input.GetKey(KeyCode.E))
+            {
+                grabCheck.collider.gameObject.transform.parent = boxHolder;
+                grabCheck.collider.gameObject.transform.position = boxHolder.position;
+                grabCheck.collider.gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
+            }
+            else 
+            {
+                grabCheck.collider.gameObject.transform.parent = null;
+                grabCheck.collider.gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
+            }
+
+        }
+
+
         if(grabCheck.collider != null && grabCheck.collider.tag == "Box2")
         {
             if(Input.GetKey(KeyCode.E))

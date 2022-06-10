@@ -10,6 +10,7 @@ TagManager:
   - Deaf
   - Normal
   - Sound
+  - light
   layers:
   - Default
   - TransparentFX
