@@ -6,10 +6,14 @@ public class fslBook : MonoBehaviour
 {
     [SerializeField] GameObject book;
     [SerializeField] GameObject page;
-    int active = 1;
+    int active;
 
+    private void Start()
+    {
+        active = 1;
+    }
     // Update is called once per frame
-    void Update()
+    void activate()
     {
         if (Input.GetKeyDown(KeyCode.T))
         {
@@ -18,6 +22,13 @@ public class fslBook : MonoBehaviour
                 book.SetActive(false);
                 active = 2;
             }
+
+            if (active == 2)
+            {
+                book.SetActive(true);
+                active = 1;
+            }
+
 
         }
     }

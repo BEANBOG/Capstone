@@ -9,6 +9,7 @@ TagManager:
   - Box2
   - Deaf
   - Normal
+  - Sound
   layers:
   - Default
   - TransparentFX
