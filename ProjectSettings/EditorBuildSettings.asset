@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/prototype puzzle/keycode/keycode (deaf).unity
     guid: 54506e7f1aac5824ba3fd8f3b6377aaf
   - enabled: 1
+    path: Assets/Scenes/Foundation Stages/Stage 1-1.1.unity
+    guid: afb9bccc6fc12dc409848bbf0c6c07d5
+  - enabled: 1
     path: Assets/Scenes/Foundation Stages/Stage 1-1.unity
     guid: 8356efac73566a246adf0219915fc861
   - enabled: 1
