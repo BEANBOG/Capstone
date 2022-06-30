@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 4448970764076159768}
   - component: {fileID: 4448970764076159769}
   - component: {fileID: 6940969057501995058}
+  - component: {fileID: -7246630855280878876}
   m_Layer: 8
   m_Name: Deaf Girl
   m_TagString: Deaf
@@ -265,6 +266,19 @@ MonoBehaviour:
   grabDetect: {fileID: 1655300771068230243}
   boxHolder: {fileID: 6061933032376008470}
   rayDistance: 10
+--- !u!114 &-7246630855280878876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4448970764076159750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b2c0c7eb56c2f4d90f55ab2b92dbb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherPlayer: {fileID: 0}
 --- !u!1 &4448970764192780276
 GameObject:
   m_ObjectHideFlags: 0
