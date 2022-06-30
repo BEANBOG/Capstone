@@ -11,19 +11,19 @@ public class bookButton : MonoBehaviour
     int active = 1;
     int counter = 1;
 
-    void Start()
-    {
-
-        gameObject.GetComponent<Button>().onClick.AddListener(ButtonClicked);
-    }
 
     private void Update()
     {
-        active = counter;
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            openBook();
+             active = counter;
+        }
+           
     }
 
     // Start is called before the first frame update
-    private void ButtonClicked()
+    private void openBook()
     {
 
             if (active == 1)
