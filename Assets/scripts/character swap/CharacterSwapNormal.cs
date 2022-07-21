@@ -6,9 +6,16 @@ public class CharacterSwapNormal : MonoBehaviour
 {
 
     public GameObject otherPlayer;
+    public GameObject otherPlayerGlow;
+    public GameObject playerGlow;
     int active = 1;
     int counter = 1;
+    private void Start()
+    {
+        playerGlow.SetActive(false);
+        otherPlayerGlow.SetActive(false);
 
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.C))
@@ -26,7 +33,10 @@ public class CharacterSwapNormal : MonoBehaviour
         if (active == 1)
         {
             otherPlayer.GetComponent<DeafMovement>().enabled = false;
-            GetComponent<PlayerMovement>().enabled = true; ;
+            GetComponent<PlayerMovement>().enabled = true;
+            playerGlow.SetActive(true);
+            otherPlayerGlow.SetActive(false);
+
             counter = 2;
         }
 
@@ -34,6 +44,9 @@ public class CharacterSwapNormal : MonoBehaviour
         {
             otherPlayer.GetComponent<DeafMovement>().enabled = true;
             GetComponent<PlayerMovement>().enabled = false;
+            playerGlow.SetActive(false);
+            otherPlayerGlow.SetActive(true);
+
             counter = 1;
         }
 
