@@ -12,15 +12,19 @@ public class toTheBathroom : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Deaf" || collision.gameObject.tag == "Normal")
+        if (collision.gameObject.tag == "Deaf" )
         {
-            if(Input.GetKeyDown(KeyCode.O))
+
+            if (collision.gameObject.tag == "Normal")
             {
-                UnityEngine.SceneManagement.SceneManager.LoadScene(3);
-                Debug.Log("open");
+
+            
             }
+                
             
 
         }
     }
+
+ 
 }

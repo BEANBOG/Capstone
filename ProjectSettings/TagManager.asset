@@ -11,6 +11,8 @@ TagManager:
   - Normal
   - Sound
   - light
+  - Bathroom
+  - twoToEnter
   layers:
   - Default
   - TransparentFX

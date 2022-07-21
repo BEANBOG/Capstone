@@ -8,7 +8,8 @@ public class Timer : MonoBehaviour
    bool timerActive = false;
    public float currentTime;
    public int startMinutes;
-   
+   public Animator animator;
+
     void Start()
    {
        currentTime = startMinutes * 2;
@@ -27,13 +28,16 @@ public class Timer : MonoBehaviour
            Debug.Log("Destroy");
            gameObject.SetActive(false);
        }
+
+        
     }
 
     void OnCollisionEnter2D(Collision2D col)
    {
        Debug.Log("Timer");
        StartTimer();
-   }
+       animator.SetBool("break", true);
+    }
 
     public void StartTimer()
    {
