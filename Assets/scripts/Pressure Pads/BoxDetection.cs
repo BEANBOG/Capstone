@@ -8,7 +8,8 @@ public class BoxDetection : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.CompareTag("Box1"))
+        //if (collider.CompareTag("Box1")) //temporary for alpha
+        if (collider.CompareTag("Normal") || collider.CompareTag("Deaf"))
         {
             Debug.Log("Box in range");
             collider.gameObject.GetComponent<SpriteRenderer>().material.color = Color.green;
