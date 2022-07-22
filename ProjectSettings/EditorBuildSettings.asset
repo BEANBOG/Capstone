@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/prototype stages/Test Stage.unity
     guid: e36001cf692802d4bb1751533ba2a1fc
   - enabled: 0
-    path: Assets/Scenes/prototype stages/stage 1.unity
+    path: Assets/Scenes/stages/stage 1.unity
     guid: 63be6de35d78a894183a3b3158145a26
   - enabled: 0
     path: Assets/Scenes/prototype puzzle/rotation Puzzle/puzzle scene (deaf).unity
@@ -59,4 +59,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/stages/Alpha4.unity
     guid: 18c812ef12d8c46449631f418102115e
+  - enabled: 1
+    path: Assets/Scenes/stages/Alpha5.unity
+    guid: 03b318e777d69e84babd517daeb948fc
+  - enabled: 1
+    path: Assets/Scenes/stages/Alpha6.unity
+    guid: c1d545699979fc7498650768ad1dc108
   m_configObjects: {}

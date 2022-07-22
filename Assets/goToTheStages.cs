@@ -24,5 +24,15 @@ public class goToTheStages : MonoBehaviour
             }
 
         }
+
+        if (grabCheck.collider != null && grabCheck.collider.tag == "Menu")
+        {
+            if (Input.GetKey(KeyCode.E))
+            {
+                SceneManager.LoadScene("Main Menu");
+                Debug.Log("open");
+            }
+
+        }
     }
 }

@@ -259,7 +259,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.75
+  orthographic size: 3.889035
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -283,7 +283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293578603}
   m_LocalRotation: {x: -0.0045206686, y: 0.040585026, z: 0.00018362462, w: 0.99916583}
-  m_LocalPosition: {x: -5.573632, y: -0.38019007, z: -12.956643}
+  m_LocalPosition: {x: -4.0482335, y: -0.2689668, z: -13.081776}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -428,7 +428,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -1077,7 +1077,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -1947,7 +1947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080433936}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.519323, y: -0.26255703, z: 0}
+  m_LocalPosition: {x: -2.225976, y: -0.094751224, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1969,7 +1969,7 @@ MonoBehaviour:
   m_RotationMode: 0
   m_UpdateMethod: 2
   m_Targets:
-  - target: {fileID: 335540306}
+  - target: {fileID: 1565447861}
     weight: 1
     radius: 3
   - target: {fileID: 335540306}
@@ -2201,7 +2201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1536537215}
   m_LocalRotation: {x: -0.0045206686, y: 0.040585026, z: 0.00018362462, w: 0.99916583}
-  m_LocalPosition: {x: -5.573632, y: -0.38019007, z: -12.956643}
+  m_LocalPosition: {x: -4.0482335, y: -0.2689668, z: -13.081776}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1959578867}
@@ -2211,6 +2211,12 @@ Transform:
 --- !u!1 &1565447860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1062243888491427572, guid: 3943cecbfd0e6ae439cd86464cdf4e3f,
+    type: 3}
+  m_PrefabInstance: {fileID: 977300251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1565447861 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1062243888491427578, guid: 3943cecbfd0e6ae439cd86464cdf4e3f,
     type: 3}
   m_PrefabInstance: {fileID: 977300251}
   m_PrefabAsset: {fileID: 0}
@@ -2226,7 +2232,7 @@ GameObject:
   - component: {fileID: 1572826865}
   m_Layer: 0
   m_Name: GameObject (1)
-  m_TagString: Bathroom
+  m_TagString: Menu
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
