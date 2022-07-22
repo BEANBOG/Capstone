@@ -2137,6 +2137,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glass Floor
       objectReference: {fileID: 0}
+    - target: {fileID: 3069123051124151414, guid: 39c54e63f3b958948a2101a0080b1690,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4240438060415731746, guid: e7a416122c8e2664b84d4e5f3770efbc,
+        type: 3}
     - target: {fileID: 3069123051124151415, guid: 39c54e63f3b958948a2101a0080b1690,
         type: 3}
       propertyPath: m_RootOrder
